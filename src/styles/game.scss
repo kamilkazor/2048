@@ -27,6 +27,8 @@
   color: white;
   background: linear-gradient(hsl(220, 25%, 5%) 0%,hsl(220, 25%, 5%) 50%, hsl(220, 33%, 16%) 100%);
   
+  -webkit-tap-highlight-color: transparent;
+
   user-select: none;
   overflow: hidden;
   position: relative;
@@ -152,6 +154,7 @@
   &__headerButton {
     font-family: 'Major Mono Display';
     font-size: calc(var(--main-font-size-basis) * 5);
+    line-height: calc(var(--main-font-size-basis) * 5);
     text-align: end;
     font-weight: bold;
 
