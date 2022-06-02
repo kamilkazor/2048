@@ -152,6 +152,7 @@
   &__headerButton {
     font-family: 'Major Mono Display';
     font-size: calc(var(--main-font-size-basis) * 5);
+    line-height: calc(var(--main-font-size-basis) * 5);
     text-align: end;
     font-weight: bold;
 
